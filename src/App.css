@@ -1,0 +1,27 @@
+h1.page-title {
+    margin: 1rem auto;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.section-sidebar {
+    position: relative;
+    width: 15rem;
+    float: left;
+}
+
+.section-container {
+    float: left;
+    width: 50rem;
+}
+
+.footer {
+    clear: both;
+    height: 8rem;
+    text-align: center;
+}
+
+.footer p {
+    min-height: 5rem;
+    padding-top: 2rem;
+}

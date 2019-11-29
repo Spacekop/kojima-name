@@ -1,0 +1,33 @@
+[
+  {
+      "text": "Who is your favorite film character? (NOTE: must be played by Kurt Russell)",
+      "name": "favoriteFilmCharacter",
+      "type": "text"
+  },
+  {
+      "text": "What is the last word of the title of your favorite Kubrick film?",
+      "name": "kubrickFinalWord",
+      "type": "text"
+  },
+  {
+      "text": "What is the first word in the title of your favorite Joy Division album?",
+      "name": "joyDivisionWord",
+      "type": "text"
+  },
+  {
+      "text": "What is a scientific term you picked up from listening to NPR once?",
+      "name": "nprTerm",
+      "type": "text"
+  },
+  {
+      "text": "What is a piece of military hardware you think looks cool even though war is bad?",
+      "name": "badMilitaryHardware",
+      "type": "text"
+  },
+  {
+      "text": "What is something you'd enjoy watching Mads Mikkelsen do?",
+      "name": "madsMikkelsenActivity",
+      "type": "textWithFlavor",
+      "flavor": "Please condense into one word"
+  }
+]

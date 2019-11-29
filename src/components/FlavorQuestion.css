@@ -1,0 +1,15 @@
+.flavor-question textarea {
+    display: block;
+    width: 100%;
+    min-height: 8rem;
+    margin: 0.4rem 0;
+    font-size: 1.2rem;
+}
+
+.flavor-question .text-question .question-body {
+    width: 38rem;
+}
+
+.clear-fix {
+    clear: both;
+}

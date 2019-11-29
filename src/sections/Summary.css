@@ -1,0 +1,19 @@
+p.explanation {
+  border: 1px solid #999;
+  padding: 0.4rem;
+  text-align: justify;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2rem;
+  white-space: pre-wrap;
+}
+
+button.toggle-all-names {
+  display: block;
+  border: 0;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+button.toggle-all-names:hover {
+  text-decoration: none;
+}

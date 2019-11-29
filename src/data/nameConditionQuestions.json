@@ -1,0 +1,83 @@
+[
+  {
+    "text": "THE -MAN CONDITION: Use this table to determine whether you have this condition",
+    "name": "manCondition",
+    "type": "dice",
+    "dieFaces": 4,
+    "choices": [
+      {
+        "ranges": [[1, 3]],
+        "text": "You do not have this condition",
+        "value": ""
+      },
+      {
+        "ranges": [4],
+        "text": "You have this condition. Your last name will include the suffix -man. If your name already has -man at the end of it, I guess you're just going to have -manman at the end of your name.",
+        "value": "man"
+      }
+    ]
+  },
+  {
+    "text": "THE CONDITION CONDITION: Use this table to determine what this condition will do to you.",
+    "name": "conditionCondition",
+    "type": "dice",
+    "dieFaces": 8,
+    "choices": [
+      {
+        "ranges": [[1, 5]],
+        "text": "You do not have this condition.",
+        "value": ""
+      },
+      {
+        "ranges": [6],
+        "text": "You're big. Your name must have \"Big\" at the beginning of it.",
+        "value": "Big"
+      },
+      {
+        "ranges": [7],
+        "text": "You are older than you once were. Your name must have \"Old\" at the beginning of it.",
+        "value": "Old"
+      },
+      {
+        "ranges": [8],
+        "text": "You are how you currently are. Please add your answer from Section 2, Number 11 to the beginning of your name."
+      }
+    ]
+  },
+  {
+    "text": "THE CLONE CONDITION: Use this table to determine what this condition will do to you.",
+    "name": "cloneCondition",
+    "type": "dice",
+    "dieFaces": 12,
+    "choices": [
+      {
+        "ranges": [[1, 11]],
+        "text": "You do not have this condition.",
+        "value": false
+      },
+      {
+        "ranges": [12],
+        "text": "You are a clone of someone else, or you have been brainwashed into becoming a mental doppelganger of someone else. Find someone who has completed this worksheet and replace 50% of your Kojima name with 50% of their Kojima name.",
+        "value": true
+      }
+    ]
+  },
+  {
+    "text": "THE KOJIMA CONDITION: Use this table to determine if you have this condition.",
+    "name": "kojimaCondition",
+    "type": "dice",
+    "dieFaces": 100,
+    "choices": [
+      {
+        "ranges": [[1, 68], [70, 100]],
+        "text": "You do not have this condition.",
+        "value": false
+      },
+      {
+        "ranges": [69],
+        "text": "You have the KOJIMA CONDITION.",
+        "value": true  
+      }
+    ]
+  }
+]

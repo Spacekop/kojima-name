@@ -1,0 +1,24 @@
+[
+  {
+    "text": "Use this table to determine how many names you have.",
+    "name": "isMultiName",
+    "type": "dice",
+    "dieFaces": 6,
+    "choices": [
+      {
+        "ranges": [[1, 5]],
+        "text": "You have 1 name.",
+        "value": false
+      },
+      {
+        "ranges": [6],
+        "text": "You have 1 name + 6 alternate names.",
+        "value": true
+      }
+    ]
+  },
+  {
+    "text": "If you rolled a 6, you must do this worksheet 6 more times. You do not need to complete Sections 1-3 on subsequent name generations.",
+    "type": "textOnly"
+  }
+]

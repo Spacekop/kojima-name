@@ -1,0 +1,36 @@
+.text-question {
+    margin: 1rem 0;
+}
+
+.question-body {
+    float: left;
+    width: 40rem;
+}
+
+.question-number {
+    float: left;
+    width: 2rem;
+}
+
+.question-body input {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    margin: 0.4rem 0;
+    min-height: 1.4rem;
+    display: block;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid black;
+}
+
+.question-body .read-only-answer {
+    font-size: 1.2rem;
+    min-height: 1.4rem;
+    width: 100%;
+    border-bottom: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.clear-fix {
+    clear: both;
+}

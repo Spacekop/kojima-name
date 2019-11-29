@@ -1,0 +1,19 @@
+.question-body button.toggler {
+  display: block;
+  margin: 1rem auto;
+  border: 1px solid black;
+  padding: 0.2rem;
+  font-size: 1rem;
+  color: black;
+  cursor: pointer;
+}
+
+.question-body button.toggler.on span.checkbox {
+  padding: 0 0.2rem;
+}
+.question-body button.toggler.on span.checkbox::after {
+  content: '✅';
+}
+.question-body button.toggler.off span.checkbox::after {
+  content: '❓';
+}

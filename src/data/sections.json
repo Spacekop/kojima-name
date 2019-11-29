@@ -1,0 +1,86 @@
+[
+  {
+    "name": "howManyNames",
+    "number": 1,
+    "title": "Determining How Many Names You Have",
+    "instructions": "Kojima often creates chracters that have many alternate names, so we must first figure out how many names you will have."
+  },
+  {
+    "name": "personalInformation",
+    "number": 2,
+    "title": "Personal Information",
+    "instructions": "Kojima's characters have names that are directly related to their own character traits. This information will make sure your name fits your personality."
+  },
+  {
+    "name": "kojimaInformation",
+    "number": 3,
+    "title": "Kojima Information",
+    "instructions": "Kojima character names reflect his own idiosyncrasies. He can't help himself."
+  },
+  {
+    "name": "nameConditions",
+    "number": 4,
+    "title": "Determining Your Name Conditions",
+    "instructions": "Sometimes, a character will have a plot-based condition that affects their name. You, to, might have a condition that affects your name. Conditions can stack, so please make note of how many your name has."
+  },
+  {
+    "name": "nameCategory",
+    "number": 5,
+    "title": "Determining Your Name Category",
+    "instructions": "Kojima names fall into a finite number of categories. This section will determine the category in which your name belongs. NOTE: If you have a name + 6 alternate names, you will do this section once to find your true name, and then you will have an alternate name in every other category."
+  },
+  {
+    "name": "catNormal",
+    "number": 6,
+    "title": "NORMAL NAME",
+    "instructions": "Kojima's early work includes lots of characters that have names that are widely considered to be \"normal.\" Was this just because, in the early years, he didn't have the power to say, \"I'm Hideo Kojima, I can name someone Die-Hardman if I want to\" without people questioning him? Probably."
+  },
+  {
+    "name": "catOccupational",
+    "number": 7,
+    "title": "OCCUPATIONAL NAME",
+    "instructions": "Kojima's characters tend to be driven by the work that they do. That often carries over to their names. You, too, can be nothing more than your job."
+  },
+  {
+    "name": "catHorny",
+    "number": 8,
+    "title": "HORNY NAME",
+    "instructions": "Kojima's characters and stories are irrevocably horny. Weirdly horny, sure, but horny nonetheless."
+  },
+  {
+    "name": "catThe",
+    "number": 9,
+    "title": "THE NAME",
+    "instructions": "Kojima loves to make people have names that start with the word \"The\" and they usually symbolize fears or unstoppable forces. You are now that unstoppable force."
+  },
+  {
+    "name": "catCool",
+    "number": 10,
+    "title": "COOL NAME",
+    "instructions": "Kojima loves to be cool. Sometimes, his idea of cool is a bit strange, but it is always cool to Hideo Kojima, and that's what matters."
+  },
+  {
+    "name": "catViolent",
+    "number": 11,
+    "title": "VIOLENT NAME",
+    "instructions": "Sometimes, a Kojima name can be very threatening and violent, like Sniper Wolf, or The Fury. Now you can also be threatening and violent."
+  },
+  {
+    "name": "catArbitrary",
+    "number": 12,
+    "title": "NAME THAT LACKS SUBTEXT",
+    "instructions": "Sometimes, Kojima gives up and just names a character exactly what they are. Congratulations. You are exactly what you do."
+  },
+  {
+    "name": "explanation",
+    "number": 13,
+    "title": "Explaining Your Name",
+    "instructions": "Kojima's characters know that their names are meaningful, and they will tell you it completely unprompted. You, too, must explain your name to any potential friends, foes, or shadowy government institutions."
+  },
+  {
+    "name": "summary",
+    "number": 69,
+    "title": "Summary",
+    "instructions": "I hope you have enjoyed dipping your toes into Kojima's world."
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+      "text": "What is your full name?",
+      "name": "fullName",
+      "type": "text"
+  },
+  {
+      "text": "What do you do at your occupation?",
+      "name": "occupation",
+      "type": "textWithFlavor",
+      "flavor": "Condense the verb in your answer into a single -er noun. (e.g. if you are a sheep farmer, your answer will be \"farmer\")"
+  },
+  {
+      "text": "What was your first pet's specific species/breed? If you never had a pet, please answer with an animal you wish you owned.",
+      "name": "firstPet",
+      "type": "text"
+  },
+  {
+      "text": "What’s your most embarrassing childhood memory? Be specific.",
+      "name": "childhoodMemory",
+      "type": "textWithFlavor",
+      "flavor": "Condense this story into two words"
+  },
+  {
+      "text": "What is the object you'd least like to be stabbed by?",
+      "name": "badStab",
+      "type": "text"
+  },
+  {
+      "text": "What is something you are good at? (Verb ending in -ing)",
+      "name": "proficientVerb",
+      "type": "text"
+  },
+  {
+      "text": "How many carrots do you believe you could eat in one sitting, if someone, like, forced you to eat as many carrots as possible?",
+      "name": "forcedCarrotCount",
+      "type": "text"
+  },
+  {
+      "text": "What is your greatest intangible fear? (e.g. death, loneliness, fear itself)",
+      "name": "intangibleFear",
+      "type": "text"
+  },
+  {
+      "text": "What is your greatest tangible fear? (e.g. horses)",
+      "name": "tangibleFear",
+      "type": "text"
+  },
+  {
+      "text": "What is the last thing you did before starting this worksheet?",
+      "name": "recentActivity",
+      "type": "text"
+  },
+  {
+      "text": "What condition is your body currently in? (single word answer)",
+      "name": "bodyCondition",
+      "type": "text"
+  },
+  {
+      "text": "Favorite state of matter?",
+      "name": "favoriteMatter",
+      "type": "text"
+  },
+  {
+      "text": "A word your name kind of sounds like? (e.g. Brian -> Brain)",
+      "name": "namePseudophone",
+      "type": "text"
+  },
+  {
+      "text": "What is your Zodiac sign?",
+      "name": "zodiacSign",
+      "type": "text"
+  },
+  {
+      "text": "If you had to define your personality in one word, what would it be?",
+      "name": "personalityWord",
+      "type": "text"
+  }
+]

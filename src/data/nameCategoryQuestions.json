@@ -1,0 +1,318 @@
+[
+  {
+    "text": "Use this table to determine your name category. Once you have figured out your name category, you can skip ahead to the section that outlines the rules of your name",
+    "name": "nameCategory",
+    "section": "nameCategory",
+    "type": "dice",
+    "dieFaces": 20,
+    "choices": [
+      {
+        "ranges": [1],
+        "text": "You have a NORMAL NAME (See Section 6)",
+        "value": "catNormal"
+      },
+      {
+        "ranges": [[2, 6]],
+        "text": "You have an OCCUPATIONAL NAME (See Section 7)",
+        "value": "catOccupational"
+      },
+      {
+        "ranges": [[7, 10]],
+        "text": "You have a HORNY NAME (See Section 8)",
+        "value": "catHorny"
+      },
+      {
+        "ranges": [[11, 13]],
+        "text": "You have a THE NAME (See Section 9)",
+        "value": "catThe"
+      },
+      {
+        "ranges": [[14, 17]],
+        "text": "You have a COOL NAME (See Section 10)",
+        "value": "catCool"
+      },
+      {
+        "ranges": [[18, 19]],
+        "text": "You have a VIOLENT NAME (See Section 11)",
+        "value": "catViolent"
+      },
+      {
+        "ranges": [20],
+        "text": "You have a NAME THAT LACKS SUBTEXT (See Section 12)",
+        "value": "catArbitrary"
+      }
+    ]
+  },
+  {
+    "text": "This is your answer from Section 2, Number 1 here. This is your full Kojima name.",
+    "name": "normalFullName",
+    "type": "readOnly",
+    "section": "catNormal",
+    "sourceField": "fullName"
+  },
+  {
+    "text": "This application will add any conditions you accrued in Section 4.",
+    "type": "textOnly",
+    "section": "catNormal"
+  },
+  {
+    "text": "That's your name. Your Kojima name is probably just your actual name. Sorry if you were expecting something wild. Skip to Section 13.",
+    "type": "textOnly",
+    "section": "catNormal"
+  },
+  {
+    "text": "This is your answer from Section 2, Number 2a. This is your last name.",
+    "name": "occupationalLastName",
+    "type": "readOnly",
+    "section": "catOccupational",
+    "sourceField": "occupation"
+  },
+  {
+    "text": "Use this table to determine your first name.",
+    "name": "occupationalFirstName",
+    "type": "dice",
+    "section": "catOccupational",
+    "dieFaces": 4,
+    "choices": [
+      {
+        "ranges": [1],
+        "text": "Your answer to Section 2, Number 15",
+        "sourceField": "personalityWord"
+      },
+      {
+        "ranges": [2],
+        "text": "Your answer to Section 2, Number 6",
+        "sourceField": "proficientVerb"
+      },
+      {
+        "ranges": [3],
+        "text": "Your answer to Section 2, Number 13",
+        "sourceField": "namePseudophone"
+      },
+      {
+        "ranges": [4],
+        "text": "Your answer to Section 3, Number 1",
+        "sourceField": "favoriteFilmCharacter"
+      }
+    ]
+  },
+  {
+    "text": "This application will add any conditions you accrued in Section 4.",
+    "type": "textOnly",
+    "section": "catOccupational"
+  },
+  {
+    "text": "That's your Kojima name. Skip to Section 13.",
+    "type": "textOnly",
+    "section": "catOccupational"
+  },
+  {
+    "text": "This is your answer from Section 2, Number 3 here. This is your last name.",
+    "name": "hornyLastName",
+    "type": "readOnly",
+    "section": "catHorny",
+    "sourceField": "firstPet"
+  },
+  {
+    "text": "Use this table to determine your first name.",
+    "name": "hornyFirstName",
+    "type": "dice",
+    "dieFaces": 4,
+    "section": "catHorny",
+    "choices": [
+      {
+        "ranges": [1],
+        "text": "Your answer to Section 2, Number 12.",
+        "sourceField": "favoriteMatter"
+      },
+      {
+        "ranges": [2],
+        "text": "Your first name is \"Naked.\"",
+        "value": "Naked"
+      },
+      {
+        "ranges": [3],
+        "text": "Your answer is Section 2, Number 6.",
+        "sourceField": "proficientVerb"
+      },
+      {
+        "ranges": [4],
+        "text": "Your answer to Section 2, Number 14.",
+        "sourceField": "zodiacSign"
+      }
+    ]
+  },
+  {
+    "text": "If you feel like it, your middle name can be \"Lickable.\" I won't stop you.",
+    "name": "hornyLickable",
+    "type": "toggle",
+    "section": "catHorny",
+    "activeValue": "Lickable ",
+    "toggleText": "Become \"Lickable.\""
+  },
+  {
+    "text": "That's your Kojima name. Skip to Section 13.",
+    "type": "textOnly",
+    "section": "catHorny"
+  },
+  {
+    "text": "Your first name is \"The.\"",
+    "name": "theFirstName",
+    "type": "textOnly",
+    "value": "The",
+    "section": "catThe"
+  },
+  {
+    "text": "Use this table to determine your last name.",
+    "name": "theLastName",
+    "type": "dice",
+    "dieFaces": 4,
+    "section": "catThe",
+    "choices": [
+      {
+        "ranges": [1],
+        "text": "Your answer is Section 2, Number 8.",
+        "sourceField": "intangibleFear"
+      },
+      {
+        "ranges": [2],
+        "text": "Your answer is Section 2, Number 9.",
+        "sourceField": "tangibleFear"
+      },
+      {
+        "ranges": [3],
+        "text": "Your answer is Section 2, Number 4a.",
+        "sourceField": "childhoodMemory"
+      },
+      {
+        "ranges": [4],
+        "text": "Your answer to Section 3, Number 5.",
+        "sourceField": "badMilitaryHardware"
+      }
+    ]
+  },
+  {
+    "text": "This application will add any conditions you accrued in Section 4. If you have any conditions that go at the front of a name, they now go directly after \"The.\"",
+    "type": "textOnly",
+    "section": "catThe"
+  },
+  {
+    "text": "That's your name. Skip to Section 13.",
+    "type": "textOnly",
+    "section": "catThe"
+  },
+  {
+    "text": "This is your answer from Section 3, Number 6a here. This is your first name.",
+    "name": "coolFirstName",
+    "type": "readOnly",
+    "section": "catCool",
+    "sourceField": "madsMikkelsenActivity"
+  },
+  {
+    "text": "Use this table to determine your last name.",
+    "name": "coolLastName",
+    "type": "dice",
+    "dieFaces": 6,
+    "section": "catCool",
+    "choices": [
+      {
+        "ranges": [1],
+        "text": "Your answer to Section 3, Number 2.",
+        "sourceField": "kubrickFinalWord"
+      },
+      {
+        "ranges": [2],
+        "text": "Your answer to Section 3, Number 3.",
+        "sourceField": "joyDivisionWord"
+      },
+      {
+        "ranges": [3],
+        "text": "Your answer to Section 3, Number 4.",
+        "sourceField": "nprTerm"
+      },
+      {
+        "ranges": [4],
+        "text": "Your answer to Section 2, Number 6.",
+        "sourceField": "proficientVerb"
+      },
+      {
+        "ranges": [5],
+        "text": "Your answer to Section 2, Number 8.",
+        "sourceField": "intangibleFear"
+      },
+      {
+        "ranges": [6],
+        "text": "Your answer to Section 2, Number 13.",
+        "sourceField": "namePseudophone"
+      }
+    ]
+  },
+  {
+    "text": "This application will add any conditions you accrued in Section 4.",
+    "type": "textOnly",
+    "section": "catCool"
+  },
+  {
+    "text": "That's your name. Skip to Section 13.",
+    "type": "textOnly",
+    "section": "catCool"
+  },
+  {
+    "text": "This is your answer from Section 2, Number 5 here. This is your first name.",
+    "name": "violentFirstName",
+    "type": "textOnly",
+    "section": "catViolent",
+    "sourceField": "badStab"
+  },
+  {
+    "text": "Use this table to determine your last name.",
+    "name": "violentLastName",
+    "type": "dice",
+    "dieFaces": 4,
+    "section": "catViolent",
+    "choices": [
+      {
+        "ranges": [1],
+        "text": "Your answer to Section 3, Number 4.",
+        "sourceField": "nprTerm"
+      },
+      {
+        "ranges": [2],
+        "text": "Your answer to Section 2, Number 12.",
+        "sourceField": "favoriteMatter"
+      },
+      {
+        "ranges": [3],
+        "text": "Your answer to Section 3, Number 5.",
+        "sourceField": "badMilitaryHardware"
+      },
+      {
+        "ranges": [4],
+        "text": "Your answer is Section 2, Number 9.",
+        "sourceField": "tangibleFear"
+      }
+    ]
+  },
+  {
+    "text": "That's your name. Skip to Section 13.",
+    "type": "textOnly",
+    "section": "catViolent"
+  },
+  {
+    "text": "This is your answer from Section 2, Number 10 here. This is your full name.",
+    "name": "arbitraryFullName",
+    "type": "readOnly",
+    "section": "catArbitrary",
+    "sourceField": "recentActivity"
+  },
+  {
+    "text": "This application will add any conditions you accrued in Section 4.",
+    "type": "textOnly",
+    "section": "catArbitrary"
+  },
+  {
+    "text": "That's your name. Skip to Section 13.",
+    "type": "textOnly",
+    "section": "catArbitrary"
+  }
+]

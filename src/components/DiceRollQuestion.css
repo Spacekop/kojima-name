@@ -1,0 +1,37 @@
+.dice-roll-table {
+    width: 38rem;
+    margin: 1rem auto;
+}
+
+table.dice-roll-table {
+    border-collapse: collapse;
+}
+table.dice-roll-table td {
+    border: 1px solid black;
+    padding: 0.4rem;
+}
+table.dice-roll-table tr.selected td {
+    background-color: #EEE;
+}
+table.dice-roll-table .number-text {
+    width: 9rem;
+}
+
+.question-body button.roll-dice {
+    display: block;
+    margin: 1rem auto;
+    border: 1px solid black;
+    padding: 0.4rem;
+    font-size: 2rem;
+    font-style: italic;
+    color: black;
+    cursor: pointer;
+}
+
+.question-body button.roll-dice > div {
+    padding: 0.4rem;
+    border: 1px dashed black;
+}
+.question-body button.roll-dice:hover > div {
+    border-color: #AAA;
+}
